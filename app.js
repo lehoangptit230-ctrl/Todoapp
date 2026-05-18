@@ -13,3 +13,8 @@ addBtn.addEventListener('click', () => {
         input.value = ""; // Xóa nội dung input sau khi thêm 
     }
 });
+todoList.addEventListener('click', (e) => {
+    if (e.target.classList.contains('delete-btn')) {
+        e.target.parentElement.remove();
+    }
+});

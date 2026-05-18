@@ -10,7 +10,7 @@ addBtn.addEventListener('click', () => {
                                             <button class="delete-btn">X</button>
                                                     `;
                                                             todoList.appendChild(li);
-                                                                    [span_3](start_span)input.value = ""; // Xóa nội dung input sau khi thêm[span_3](end_span)
+                                                                    [span_3](start_span)input.value = ""; 
                                                                         }
                                                                         });
                                                                         
